@@ -1,4 +1,6 @@
-﻿Console.Clear();
+﻿//мне не очень нравится мое решение
+
+Console.Clear();
 Console.Write("insert coordinates of A dot: ");
 int [] a=new int [3];
 Console.Write("x: ");
