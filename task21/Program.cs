@@ -19,4 +19,4 @@ b[1]= int.Parse(Console.ReadLine()!);
 Console.Write("z: ");
 b[2]= int.Parse(Console.ReadLine()!);
 
-Console.WriteLine($"distance between A and B dots equal {Math.Sqrt(Math.Sqrt(Math.Pow((a[0]-b[0]),2)+Math.Pow((a[1]-b[1]),2))+Math.Pow((a[2]-b[2]),2))} ");
+Console.WriteLine($"distance between A and B dots equal {Math.Round(Math.Sqrt(Math.Sqrt(Math.Pow((a[0]-b[0]),2)+Math.Pow((a[1]-b[1]),2))+Math.Pow((a[2]-b[2]),2)),2)} ");
